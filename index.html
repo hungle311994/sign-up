@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- Latest compiled and minified CSS & JS -->
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"
+    />
+    <script src="//code.jquery.com/jquery.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.css"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="signup-wrapper">
+      <!-- Slide show -->
+      <div id="carousel-id" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-id" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-id" data-slide-to="1" class=""></li>
+          <li data-target="#carousel-id" data-slide-to="2" class=""></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="item active">
+            <img
+              src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&q=80"
+            />
+            <div class="caption">
+              <h4>
+                "Life is not about waitng for the storm to pass, it's about
+                learning to dance in the rain."
+              </h4>
+            </div>
+          </div>
+          <div class="item">
+            <img
+              src="https://images.unsplash.com/photo-1551389319-fb570e5a5dde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NjR8MTc4NTcyOHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+            />
+            <div class="caption">
+              <h4>
+                "Enjoy the little things in life for one day you'll look back
+                and realize they were the big things."
+              </h4>
+            </div>
+          </div>
+          <div class="item">
+            <img
+              src="https://images.unsplash.com/photo-1543993441-772fc73eb04f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTN8MTc4NTcyOHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+            />
+            <div class="caption">
+              <h4>
+                "Learn from yesterday, live for today, hope for tomorrow. The
+                important is to not stop questioning."
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="signup-author">
+        <span>Travel</span>
+      </div>
+      <!-- End Slide show -->
+
+      <!-- Content -->
+      <div class="signup-content">
+        <!-- Title -->
+        <h4 class="content-title">Create an account</h4>
+        <!-- End Title -->
+
+        <!--  -->
+        <span class="content-caption">Let's get started with your trip</span>
+        <!--  -->
+
+        <!-- Input field -->
+        <div class="form-field">
+          <form action="">
+            <!-- Username -->
+            <div class="form-field-item">
+              <input
+                id="username"
+                type="text"
+                class="form-input"
+                placeholder="Username"
+              />
+              <span></span>
+              <small></small>
+            </div>
+            <!-- End Username -->
+
+            <!-- Email -->
+            <div class="form-field-item">
+              <input
+                id="email"
+                type="email"
+                class="form-input"
+                placeholder="Email"
+              />
+              <span></span>
+              <small></small>
+            </div>
+            <!-- End Email -->
+
+            <!-- Password -->
+            <div class="form-field-item">
+              <input
+                id="password"
+                type="password"
+                class="form-input"
+                placeholder="Password"
+              />
+              <span></span>
+              <small></small>
+              <a class="show-password" href=""
+                ><ion-icon class="icon-icon" name="eye-outline"></ion-icon
+              ></a>
+            </div>
+            <!-- End Password -->
+
+            <!-- Confirm Password -->
+            <div class="form-field-item">
+              <input
+                id="cf-password"
+                type="password"
+                class="form-input"
+                placeholder="Confirm password"
+              />
+              <span></span>
+              <small></small>
+              <a class="show-cfpassword" href=""
+                ><ion-icon class="icon-icon" name="eye-outline"></ion-icon
+              ></a>
+            </div>
+            <!-- End Confirm Password -->
+
+            <!-- Create account -->
+            <button type="submit" class="create-account">Create account</button>
+            <!-- End Create account -->
+
+            <!-- Sign up -->
+            <button type="submit" class="create-signup">
+              <img src="./assets/google.svg" alt="" />
+              <span>Sign up with Google</span>
+            </button>
+            <!-- End Sign up -->
+
+            <!--  -->
+            <div class="login">
+              <span>Already have an account? </span><a href="#">Log in</a>
+            </div>
+            <!--  -->
+          </form>
+        </div>
+        <!-- End Input field -->
+      </div>
+      <!-- End Content -->
+    </div>
+
+    <script type="text/javascript" src="./main.js"></script>
+  </body>
+</html>
